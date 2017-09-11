@@ -1,0 +1,15 @@
+/* ===================================================================
+print
+=================================================================== */
+@media print {
+	body {
+		width: 980px;
+		*zoom: 0.8;
+		background: #FFF; }
+	#tpl-pagetop-box {
+		display: none; }
+	#tpl-footer .copyright {
+		float: none;
+		text-align: center;
+		width: 100%;
+		color: #333; } }

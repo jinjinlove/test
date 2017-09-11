@@ -1,0 +1,83 @@
+#sec-list {
+	background: #2d415e;
+	padding: 50px;
+	/* .list
+	-----------------------------*/ }
+	@media screen and (max-width: 750px) {
+		#sec-list {
+			padding: 20px; } }
+	#sec-list .sec-title {
+		color: #fff;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold; }
+	#sec-list .filter {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px; }
+		#sec-list .filter li + li {
+			margin-left: 30px; }
+		#sec-list .filter a {
+			color: #fff;
+			font-size: 14px; }
+		#sec-list .filter a.is-active {
+			text-decoration: underline;
+			color: #ff00b0; }
+	#sec-list .list {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 30px; }
+		@media screen and (max-width: 750px) {
+			#sec-list .list {
+				justify-content: space-between; } }
+		#sec-list .list .item {
+			border-radius: 5px;
+			background-color: #fff;
+			padding: 10px 10px 50px;
+			width: 32%;
+			margin-left: 1%;
+			margin-bottom: 1%;
+			position: relative; }
+			@media screen and (max-width: 750px) {
+				#sec-list .list .item {
+					width: 49.5%;
+					margin-left: 0; } }
+		#sec-list .list .item:nth-child(3n+1) {
+			margin-left: 0; }
+		#sec-list .list .item img {
+			max-width: 100%; }
+		#sec-list .list .item .title {
+			color: #1e3058;
+			font-size: 16px;
+			padding: 10px 0; }
+			@media screen and (max-width: 750px) {
+				#sec-list .list .item .title {
+					font-size: 14px; } }
+		@media screen and (max-width: 750px) {
+			#sec-list .list .item .description {
+				font-size: 12px;
+				line-height: 1.6; } }
+		#sec-list .list .item .cate {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 10px;
+			margin-top: 10px;
+			position: absolute;
+			left: 0;
+			bottom: 10px; }
+			#sec-list .list .item .cate li {
+				border-radius: 5px;
+				background-color: #989898;
+				color: #fff;
+				padding: 2px 5px;
+				font-size: 12px; }
+			#sec-list .list .item .cate li + li {
+				margin-left: 5px; }
+
+#tpl-contents .text-wrap {
+	padding: 50px; }
+	@media screen and (max-width: 750px) {
+		#tpl-contents .text-wrap {
+			padding: 20px; } }
+	#tpl-contents .text-wrap p + p {
+		margin-top: 20px; }
